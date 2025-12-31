@@ -16,12 +16,15 @@ echo ""
 echo "💾 Committing..."
 git commit -m "Complete deployment - all assets (no tokens in scripts)" || echo "No changes"
 
-# 3. Push (token bilan)
+# 3. Push (token bilan - manual)
 echo ""
 echo "⬆️  Pushing to GitHub..."
-git remote set-url origin 'https://brorasulov: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@github.com/brorasulov/brorasulov.git'
-git push origin main --force
-git remote set-url origin 'https://github.com/brorasulov/brorasulov.git'
+echo "⚠️  Note: You need to authenticate manually"
+echo ""
+echo "Run this command:"
+echo "  git remote set-url origin 'https://brorasulov:YOUR_TOKEN@github.com/brorasulov/brorasulov.git'"
+echo "  git push origin main --force"
+echo "  git remote set-url origin 'https://github.com/brorasulov/brorasulov.git'"
 
 echo ""
 echo "✅ Done!"

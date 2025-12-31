@@ -3,7 +3,8 @@
 cd /Users/xoji/Documents/comment
 
 echo "🔗 Setting remote with token..."
-git remote set-url origin "https://brorasulov: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@github.com/brorasulov/brorasulov.git"
+echo "⚠️  Note: Use your GitHub token manually or set GITHUB_TOKEN env variable"
+# git remote set-url origin "https://brorasulov:YOUR_TOKEN@github.com/brorasulov/brorasulov.git"
 
 echo "⬆️  Pushing to GitHub..."
 git push -u origin main

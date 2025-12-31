@@ -29,9 +29,15 @@ if result.returncode == 0:
 else:
     print("ℹ️  No changes to commit or already committed")
 
-# 4. Push (token bilan)
+# 4. Push (token bilan - environment variable'dan)
 print("\n⬆️  Pushing to GitHub...")
-token = "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"
+token = os.environ.get("GITHUB_TOKEN", "")
+
+if not token:
+    print("❌ GITHUB_TOKEN environment variable not set")
+    print("   Run: export GITHUB_TOKEN='your_token'")
+    print("   Then run this script again")
+    sys.exit(1)
 
 # Remote URL'ni o'rnatish
 subprocess.run(["git", "remote", "set-url", "origin", 
