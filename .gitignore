@@ -8,7 +8,7 @@ env/
 venv/
 *.egg-info/
 
-# Scripts
+# Scripts (keep only essential)
 *.sh
 *.py
 !get_ip.py
@@ -21,3 +21,4 @@ venv/
 .DS_Store
 Thumbs.db
 
+# NOTE: We need ALL assets, so don't ignore them!
