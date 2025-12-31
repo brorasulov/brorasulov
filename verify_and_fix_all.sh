@@ -62,9 +62,8 @@ echo "💾 Committing..."
 git commit -m "Add all missing assets - complete fix" || echo "No changes"
 
 echo "⬆️  Pushing..."
-git remote set-url origin "https://brorasulov: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@github.com/brorasulov/brorasulov.git"
+echo "⚠️  Note: You may need to authenticate with your GitHub token"
 git push origin main --force
-git remote set-url origin "https://github.com/brorasulov/brorasulov.git"
 
 echo ""
 echo "✅ Done! Wait 2-3 minutes for GitHub Pages to update"

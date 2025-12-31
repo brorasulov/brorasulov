@@ -30,9 +30,8 @@ git commit -m "Complete deployment - all assets" || echo "No changes to commit"
 # Push
 echo ""
 echo "⬆️  Pushing to GitHub (force)..."
-git remote set-url origin "https://brorasulov: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@github.com/brorasulov/brorasulov.git"
+echo "⚠️  Note: You may need to authenticate with your GitHub token"
 git push origin main --force
-git remote set-url origin "https://github.com/brorasulov/brorasulov.git"
 
 echo ""
 echo "✅ Done! All files pushed."

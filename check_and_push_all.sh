@@ -24,9 +24,8 @@ if [ "$TOTAL_FILES" -gt "$TRACKED_FILES" ]; then
     git commit -m "Add all missing assets" || echo "No changes to commit"
     
     echo "⬆️  Pushing to GitHub..."
-    git remote set-url origin "https://brorasulov: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@github.com/brorasulov/brorasulov.git"
+    echo "⚠️  Note: You may need to authenticate with your GitHub token"
     git push origin main
-    git remote set-url origin "https://github.com/brorasulov/brorasulov.git"
     
     echo ""
     echo "✅ Done! All files pushed."
