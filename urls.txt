@@ -1,0 +1,7 @@
+https://www.igloo.inc
+https://www.igloo.inc/
+https://www.igloo.inc/assets/IBMPlexMono-Medium-1e253194.woff
+https://www.igloo.inc/assets/IBMPlexMono-Regular-419d45f6.woff
+https://www.igloo.inc/assets/favicon16-9e4401be.png
+https://www.igloo.inc/assets/favicon32-af94112f.png
+https://www.igloo.inc/assets/images/social.jpg

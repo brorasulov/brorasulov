@@ -1,0 +1,39 @@
+🚀 GitHub'ga Deploy Qilish - Qadamlar
+
+Terminalda quyidagilarni ketma-ket bajaring:
+
+1. Git'ni initialize qilish:
+   cd /Users/xoji/Documents/comment
+   git init
+
+2. Remote qo'shish:
+   git remote add origin https://github.com/abdulazizproject/comment.git
+
+3. Barcha fayllarni qo'shish:
+   git add .
+
+4. Commit qilish:
+   git commit -m "Deploy igloo.inc website"
+
+5. Branch nomini o'zgartirish:
+   git branch -M main
+
+6. GitHub'ga yuborish:
+   git push -u origin main
+
+⚠️  Agar authentication so'ralsa:
+   - GitHub username kiriting
+   - Password o'rniga Personal Access Token kiriting
+   - Token yaratish: https://github.com/settings/tokens
+   - Token'da "repo" permission'ni belgilang
+
+✅ Keyin GitHub Pages'ni yoqish:
+   1. https://github.com/abdulazizproject/comment ga kiring
+   2. Settings > Pages
+   3. Source: Deploy from a branch
+   4. Branch: main, Folder: / (root)
+   5. Save
+
+🌐 Sayt manzili:
+   https://abdulazizproject.github.io/comment/
+
